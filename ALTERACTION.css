@@ -178,15 +178,6 @@
       display: none;
     }
   
-  }
-  
-  @media (min-width: 400px) {
-    
-    body {
-      display: grid;
-      grid-template-rows: auto 1fr auto;
-    }
-  
     header {
       padding-top: 2rem;
     }
