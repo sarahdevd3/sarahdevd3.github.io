@@ -16,13 +16,12 @@ global
     height: 100%;
   }
 
-  
-  html {
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
-  }
-  
+
+
+
   @media (prefers-reduced-motion: no-preference) {
     html {
+      text-decoration-color: blanchedalmond;
       text-rendering: optimizeLegibility;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
@@ -70,9 +69,9 @@ global
   */
   
   body {
-    background-image: url(https://raw.githubusercontent.com/sarahdevd3/sarahdevd3.github.io/main/photos/02Low.jpg);
+    background-image:url(file:///var/www/html/02Low.jpg);
     background-position: center center;
-    background-size: 50%;
+    background-size: 80%;
     background-repeat: no repeat;
   }
   
