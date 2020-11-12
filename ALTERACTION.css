@@ -160,7 +160,6 @@
       border-radius: 1rem;
       padding: 1rem;
       display: grid;
-      place-content: center;
       user-select: none;
     }
   
