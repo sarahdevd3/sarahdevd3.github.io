@@ -5,6 +5,7 @@ global
 
 *, *::before, *::after {
     box-sizing: border-box;
+   
 
  width: 100%;
  height: 100%;
@@ -14,6 +15,7 @@ global
   img {
     width: 100%;
     height: 100%;
+    align-content: center;
   }
 
   
