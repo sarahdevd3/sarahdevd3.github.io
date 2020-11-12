@@ -33,17 +33,6 @@ global
   font
   */
   
-  html {
-    font-family: Ubuntu, system-ui, sans-serif;
-    font-size: 62.5%;
-  }
-  
-  h1, h2, h3, h4, h5, h6 {
-    letter-spacing: -.04em;
-    font-weight:400;
-    line-height: 1.15;
-  }
-  
   @media (max-width: 400px) {
   
     body {
@@ -81,9 +70,9 @@ global
   */
   
   body {
-    background-image:url(https://raw.githubusercontent.com/sarahdevd3/sarahdevd3.github.io/main/photos/02Low.jpg);
+    background-image:url(file:///var/www/html/02Low.jpg);
     background-position: center center;
-    background-size: 40%;
+    background-size: 50%;
     background-repeat: no repeat;
   }
   
