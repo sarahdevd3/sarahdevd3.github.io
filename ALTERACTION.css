@@ -24,7 +24,7 @@
     }
   
      .h1 {
-      font-size: 0.7rem;
+      font-size: 2rem;
       text-align: center;
     text-decoration-color: white;
     }
@@ -39,6 +39,7 @@
     }
   
     header h1 {
+      font-size: 0.5rem;
       text-align: center;
       text-decoration-color: white;
     }
