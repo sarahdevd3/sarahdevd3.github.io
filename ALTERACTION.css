@@ -1,3 +1,4 @@
+
 *, *::before, *::after {
     box-sizing: border-box;
 
@@ -53,10 +54,10 @@
   color
   */
   
-  body { 
-    background-color: black;
+  body {
+    background-image: url("https://raw.githubusercontent.com/sarahdevd3/sarahdevd3.github.io/main/photos/lamine.jpg");
     background-position: center center;
-    background-size: 100%;
+    background-size: 50%;
     background-repeat: no repeat;
   }
   
@@ -178,6 +179,15 @@
       display: none;
     }
   
+  }
+  
+  @media (min-width: 400px) {
+    
+    body {
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+    }
+  
     header {
       padding-top: 2rem;
     }
@@ -200,7 +210,15 @@
       grid-gap: 5rem;
       justify-content: center;
     }
-
+  
+    main > ul > li {
+      border-radius: 1rem;
+      padding: 1rem;
+      display: grid;
+      place-content: center;
+      user-select: none;
+      cursor: grabbing;
+    }
   
     footer {
       padding-bottom: .4rem;
