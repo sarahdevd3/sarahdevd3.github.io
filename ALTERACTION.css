@@ -1,218 +1,63 @@
-/* 
-*, *::before, *::after {
-    box-sizing: border-box;
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Le groupe Alter Action vient de sortir une nouvelle mixtape ! Vas vite sur le site pour l'écouter en avant-première">
+    <meta name="keywords" content="Alter, Action, Rap, Musique, Groupe">
+    <meta name="author" content="Alter Action">
+    <!-- Twitter -->
 
- width: 100%;
- height: 100%;
-   
-  } */
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@yoursite" />
+    <meta name="twitter:title" content="Nouvelle mixtape ma gueule !" />
+    <meta name="twitter:description" content="Vas y clique fort et monte le son." />
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/sarahdevd3/sarahdevd3.github.io/main/lamine.jpg" />
+    <!-- Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://sarahdevd3.github.io/" />
+    <meta property="og:title" content="Alter Action ça claque des culs !" />
+    <meta property="og:description" content="Clique et viens voir nos billets ! En plus on fait de la musique" />
+    <meta property="og:image" content="https://raw.githubusercontent.com/sarahdevd3/sarahdevd3.github.io/main/lamine.jpg" />   
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="800" />
+    <meta property="og:image:alt" content="Photo de la pochette de l'album" />
 
-  img {
-    width: 100%;
-    height: 100%;
-  }
-  
-  /*
-  font
-  */
-  
-  @media (max-width: 401px) {
-  
-    body {
-      font-size: 0.5rem;
-      line-height: 1.55;
-    }
 
-    header h1 {
-        font-size: 1rem;
-        text-align: center;
-        text-decoration-color: white;
-      }    
+    <title>AlterAction Nouvelle Mixtape</title>
+    <link rel="stylesheet" href="ALTERACTION.css">
+</head>
+<body>
 
-  }
-  
-  @media (min-width: 400px) {
-  
-    body {
-      font-size: 1,1rem;
-      line-height: 1.7;
-    }
-  
-    header h1 {
-      font-size: 2rem;
-      text-align: center;
-      text-decoration-color: white;
-    }
-  
-    footer > p {
-      text-align: center;
-      font-size: 1.5rem;
-    }
-  
-  }
-  
-  /*
-  color
-  */
-  
-  body {
-    background: url("https://raw.githubusercontent.com/sarahdevd3/sarahdevd3.github.io/main/photos/02Low.jpg") no-repeat;
-    background-position: top center;
-    background-size: cover;
-    /* background-repeat: no repeat; */
-  }
-  
-  a {
-    color: currentColor;
-  }
-  
-  header h1 {
-    text-shadow: white;
-  }
-  
-  main > ul > li {
-    border-style: solid;
-    border-color: rgba(255,255,255,.5);
-  }
-  
-  @media (max-width: 401px) {
-  
-    main > ul > li {
-      border-width: .4rem;
-      box-shadow: white;
-    }
-  
-  }
-  
-  @media (min-width: 400px) {
-    
-    main > ul > li {
-      border-width: .6rem;
-      box-shadow: inset 0 0 4rem rgba(255,255,255,.25);
-      transition: border-color 150ms ease-out;
-    }
-    
-  }
-  
-  main > ul > li:hover {
-    border-color: white;
+    <body style="font-size: 35px;line-height: 0;">
 
-  }
-  
-  main > ul > li:active {
-    background-color: coral;
-    border-color: rgba(255,255,255,.25);
-  }
-  
-  @media (min-width: 400px) {
-  
-    footer {
-      color: rgba(255,255,255,.5);
-    }
-  
-    footer a {
-      transition: color 150ms ease-out;
-    }
-  
-    footer a:hover {
-      color: white;
-    }
-  
-  }
-  
-  /*
-  layout
-  */
-  
-  body {
-    margin: 0;
-    min-height: 80vh;
-  }
-  
-  @media (max-width: 401px) {
-  
-    /* body {
-      display: flex;
-      grid-template-rows: auto 1fr;
-    } */
-  
-    header {
-      padding: .5rem .5rem 0;
-    }
-  
-    header > h1 {
-      margin: 0;
-    }
-  
-    main {
-      display: flex;
       
-    }
-  
-    main > ul {
-      list-style-type: none;
-      margin: 0;
-      display: grid;
-      grid-gap: 1rem;
-      padding: 1rem;
-    }
-  
-    main > ul > li {
-        width: 150px;
-        display: flex;
-    }
-  
-    main > ul > li img {
-      max-width: 100%;
-      height: 100%;
-    }
-  
-    main > ul > li svg {
-      width: 100%;
-      height: 100%;
-    }
-  
-    footer {
-      display: none;
-    }
-  
-  }
-  
-  @media (min-width: 400px) {
-    
-    body {
-      display: grid;
-      grid-template-rows: auto 1fr auto;
-    }
-  
-    header {
-      padding-top: 2rem;
-    }
-  
-    header > h1 {
-      margin: 0;
-    }
-
-  
-    main > ul {
+       
         
-        display: flex;
-        align-items: start;
-        justify-content: space-between;
-    }
-  
-    main > ul > li {
-        width: 210px;
-        display: flex;        
-    }
+ 
+  <header>
 
-  
-    footer {
-      padding-bottom: .4rem;
-    }
-  
-    footer > p {
-      margin: 0;
-    }
-    
-  }
+   <h1 style="color:rgb(223, 215, 215)">ALTER ACTION</h1>
+  </header>
+
+  <main>
+    <ul>
+      <li><img src="https://raw.githubusercontent.com/sarahdevd3/sarahdevd3.github.io/main/photo-alter-actions-artist-miksha(1).jpg"></li>
+      <div class="container">
+      <li><img src="https://raw.githubusercontent.com/sarahdevd3/sarahdevd3.github.io/main/photos/05Low.jpg"height="650px" width="470px" ></li>
+      <div class="text">
+        <h1> Watch! </h1>
+      </div>
+    </div>
+      <li><img src="https://raw.githubusercontent.com/sarahdevd3/sarahdevd3.github.io/main/photo-alter-actions-cover-mixtape(1)(1).jpg"></li>
+     
+  </ul></main>
+
+  <footer>
+    <p>Sauf mention contraire, le contenu de cette page est distribué sous <a href="</a"></a></p><a href="</a">
+  </a></footer><a href="</a">
+
+
+
+</body>
+</html>
